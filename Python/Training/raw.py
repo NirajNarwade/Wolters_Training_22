@@ -25,7 +25,7 @@ def get_age(age):
         ages.append(curr_yr - yr)
     return ages
 
-def get_details(dobs):
+def get_details(get_yob,get_age,dobs):
     is_major = []
     ages = get_age(get_yob(dobs))
     for age in ages:
@@ -35,9 +35,8 @@ def get_details(dobs):
             is_major.append(False)
     return is_major
 
-print(get_details(students_dobs))
+print(get_details(get_yob,get_age,students_dobs))
 
-# incomplete partially check video
 
 # map()    filter()    reduce()
 
