@@ -11,3 +11,14 @@ if flag1:
 else:
     print("falg is false")                  # else executed if condition does not satisfies
 
+# if else ladder
+# if condition:
+#   do something
+# elif condition:
+#   do something
+# elif condition:
+#   do something
+# elif condition:
+#   do something
+# else:
+#   do something 
