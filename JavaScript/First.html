@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function showAge(){
+            var age = document.getElementById("age").value;
+
+            alert("Your age is "+age);
+        }
+        function showAddress(){
+            var add = document.getElementById("address").value;
+            document.getElementById("addline").innerHTML = add;
+            
+        }
+        function changeText(val){
+            document.getElementById("text").value=val;
+        }
+        function getValue(){
+            alert(document.getElementById("text").value)
+        }
+    </script>
+</head>
+<body>
+    <h1>Niraj Narwade</h1>
+    <h2>Niraj Narwade</h2>
+    <input type="text" name="age" id="age"/><button onclick=showAge()>Enter your Age</button><br/>
+    <input type="text" name="address" id="address"/><button onclick=showAddress()>Enter your Address</button><br/>
+    <p id="addline">hii</p>
+    <h1 id="heading1">Niraj</h1>
+    <input type="text" id="text" /><button value="one" onclick=changeText(value)>1</button><button value="two" onclick=changeText(value)>2</button>
+    <button onclick=getValue()>Get value</button>
+</body>
+</html>

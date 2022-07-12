@@ -1,0 +1,40 @@
+{
+    "patients_list": [
+        {
+            "patient_id": 1,
+            "firstName": "Joe",
+            "lastName": "Jackson",
+            "gender": "male",
+            "age": 28,
+            "address": {
+                "streetAddress": "101",
+                "city": "San Diego",
+                "state": "CA"
+            },
+            "phoneNumbers": [
+                {
+                    "type": "home",
+                    "number": "7349282382"
+                }
+            ]
+        },
+        {
+            "patient_id": 2,
+            "firstName": "Jill",
+            "lastName": "Jackson",
+            "gender": "male",
+            "age": 28,
+            "address": {
+                "streetAddress": "101",
+                "city": "San Diego",
+                "state": "CA"
+            },
+            "phoneNumbers": [
+                {
+                    "type": "home",
+                    "number": "7349282382"
+                }
+            ]
+        }
+    ]
+}
