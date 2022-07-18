@@ -1,5 +1,6 @@
 var x = 0;
 console.log(x);
+alert("Hi, Welcome!")
 
 // 13-07-2022 js training
 // if statement
@@ -21,3 +22,12 @@ console.log(x);
 // loops for each
 // dom
 // dom manipulaiton
+
+//15-07-2022
+
+//18-07-2022
+// array destructuring 
+// spread operator 
+// sets
+// calculator program
+// maps
