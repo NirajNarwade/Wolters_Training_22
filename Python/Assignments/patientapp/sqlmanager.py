@@ -1,6 +1,6 @@
 import sqlite3
 
-conn = sqlite3.connect('patient.db')
+conn = sqlite3.connect('.\Python\Assignments\patientapp\patient.db')
 
 cursor = conn.cursor()
 
