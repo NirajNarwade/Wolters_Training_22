@@ -35,13 +35,13 @@ def get_all_patients():
 
 def update_patient_age(patient_id, age):
     with conn:
-        cursor.execute("""UPDATE patients SET age = age WHERE patient_id = patient_id """,
+        cursor.execute("""UPDATE patients SET age = :age WHERE patient_id = :patient_id """,
                        {'patient_id': patient_id, 'age': age, })
 
 
 def delete_patient(patient_id):
     with conn:
-        cursor.execute("DELETE from patients WHERE patient_id =: patient_id",
+        cursor.execute("DELETE from patients WHERE patient_id = :patient_id",
                        {'patient_id': patient_id})
 
 

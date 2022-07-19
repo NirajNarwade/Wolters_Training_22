@@ -1,26 +1,26 @@
 
-a = "Niraj"                             #string
+a = "Niraj"  # string
 A = "Narwade"
 aa = '''niraj
-     narwade'''                         #multi-line string
+     narwade'''  # multi-line string
 
-b=123                                   #integer
+b = 123  # integer
 f = -123
-c=45.32                                 #float
-d=False                                 #boolean
-e=None                                  #NoneType
+c = 45.32  # float
+d = False  # boolean
+e = None  # NoneType
 
 print(a)
-print(A)                                #case-sensitive
+print(A)  # case-sensitive
 print(aa)
-print(b,f)
+print(b, f)
 print(c)
 print(d)
 print(e)
 
-print(a,b,c)                            #multiple types concatinarion
+print(a, b, c)  # multiple types concatinarion
 
-print(type(a))                          #type of variable
+print(type(a))  # type of variable
 print(type(aa))
 print(type(b))
 print(type(c))
@@ -30,7 +30,7 @@ print(type(e))
 
 # datatypes
 # text --> string
-#numeric --> int float complex
+# numeric --> int float complex
 # sequence --> list tuple range
 # mapping --> dict - dictionary
 # set --> set
