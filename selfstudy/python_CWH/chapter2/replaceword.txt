@@ -1,0 +1,9 @@
+with statement 
+######s and ######s file automatically
+with ######("./selfstudy/python_CWH/chapter2/sample.######","r") as f:
+    print(f.read()
+with ######("./selfstudy/python_CWH/chapter2/another.######","w") as f:
+    print(f.write("something")
+with ######("./selfstudy/python_CWH/chapter2/another.######","a") as f:
+    print(f.write("
+something more"))

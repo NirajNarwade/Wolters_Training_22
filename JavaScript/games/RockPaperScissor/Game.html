@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RockPaperScissor</title>
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="game.css">
+    <script src="game.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="center">
+            <h1>Welcome to the Game of Rock, Paper and Scissor</h1>
+            <p>First, Computer will choose one from Rock, Paper and Scissor. Your job is to beat Computer in this game.</p>
+            <p>Good Luck!</p>
+            <button onclick=Rules()>Rules</button><br/><br/>
+            <button id="btn1" class="btn btn-lg btn-secondary" onclick=buttonHandeler()>Click here to play</button>
+            <div style="display: none;" id="div1">
+                <p class="background" id="p1">Computer has chosen</p>
+                <b>Enter your Choice :<input id="in1" name="in1" type="text"></b>
+                <br/>     
+                <button id="btn2" style="margin-right: 10px;" class="btn btn-lg btn-primary" onclick=check(in1.value)>Go</button>
+                <button id="btn3" class="btn btn-lg btn-success" onclick>Reset</button>
+                <br />
+                <br />
+                <b><<<   ScoreBoard   >>></b><br/>
+                <table>
+                    <tr>
+                        <td>Round:</td>
+                        <td id="round"></td>
+                    </tr>
+                    <tr>
+                        <td>Computer:</td>
+                        <td id="comp"></td>
+                    </tr>
+                    <tr>
+                        <td>You:</td>
+                        <td id="you"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
