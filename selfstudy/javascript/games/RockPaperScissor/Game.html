@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RockPaperScissor</title>
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="game.css">
+    <script src="game.js"></script>
+    <script>
+        function rules(){
+            alert("Rules are simple!\nRock breaks Scissor - Rock wins!\nPaper covers Rock - Paper wins!\nScissor cuts Paper - Scissor wins!")
+        }
+    </script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="center">
+            <h1 id="heading">Welcome to the Game of Rock, Paper and Scissor</h1>
+            <p>First, Computer will choose one from Rock, Paper and Scissor. Your job is to beat Computer in this game. Good Luck!</p>
+            <button id="btn" class="btn" onclick="window.location.href='#popup1';">Rules</button><br/><br/>
+            <!-- <button onclick=rules()>Rules</button><br/><br/> -->
+            
+           
+            
+            <div id="popup1" class="overlay">
+                <div class="popup">
+                    <h2>Rules</h2>
+                    <a class="close" href="#">&times;</a>
+                    <div class="content">
+                        Rules are simple!<br/>Rock breaks Scissor - Rock wins!<br/>Paper covers Rock - Paper wins!<br/>Scissor cuts Paper - Scissor wins!
+                    </div>
+                </div>
+            </div>
+
+            <div id="box" class="box">
+                <!-- <a class="button" href="#popup1">Let me Pop up</a> -->
+                <button id="btn1" class="btn btn-lg btn-secondary" onclick=buttonHandeler()>Click here to play</button>
+            
+            
+                <div style="display: none;" id="div1">
+                    <p>1 - Rock<br/>2 - Paper<br/>3 - Scissor</p>
+                    <p class="background" id="p1">Computer has made it's choice. Now its your turn</p>
+                    <p id="choice"></p>
+                    <b><span>Enter your Choice :</span><input id="in1" name="in1" type="number"></b>
+                    <p id="error"></p>
+                    <br/>     
+                    <button id="btn2" style="margin-right: 10px;" class="btn-lg btn-primary" onclick=check(in1.value)>Go</button>
+                    <button id="btn3" class="btn-lg btn-success" onclick=reset()>Reset</button>
+                    <br />
+                    <br />
+                    <b><span><<<   ScoreBoard   >>></span></b><br/>
+                    <table >
+                        <tr>
+                            <th style="text-align: left;">Round:</th>
+                            <td style="text-align: right;"id="round"></td>
+                        </tr>
+                        <tr>
+                            <th style="text-align: left;">Computer:</th>
+                            <td style="text-align: right;"id="comp"></td>
+                        </tr>
+                        <tr>
+                            <th style="text-align: left;">You:</th>
+                            <td style="text-align: right;"id="you"></td>
+                        </tr>
+                        <tr>
+                            <th style="text-align: left;">Tie:</th>
+                            <td style="text-align: right;"id="tie"></td>
+                        </tr>                    
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

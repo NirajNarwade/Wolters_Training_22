@@ -62,3 +62,8 @@
 
 #complete and working
 
+# inheritance
+
+# property decorator
+
+# operator overloading
