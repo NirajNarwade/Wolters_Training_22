@@ -26,7 +26,7 @@
             
             <div id="popup1" class="overlay">
                 <div class="popup">
-                    <h2>Rules</h2>
+                    <h3>Rules</h3>
                     <a class="close" href="#">&times;</a>
                     <div class="content">
                         Rules are simple!<br/>Rock breaks Scissor - Rock wins!<br/>Paper covers Rock - Paper wins!<br/>Scissor cuts Paper - Scissor wins!
@@ -37,20 +37,52 @@
             <div id="box" class="box">
                 <!-- <a class="button" href="#popup1">Let me Pop up</a> -->
                 <button id="btn1" class="btn btn-lg btn-secondary" onclick=buttonHandeler()>Click here to play</button>
-            
-            
+                
+                
                 <div style="display: none;" id="div1">
-                    <p>1 - Rock<br/>2 - Paper<br/>3 - Scissor</p>
-                    <p class="background" id="p1">Computer has made it's choice. Now its your turn</p>
-                    <p id="choice"></p>
-                    <b><span>Enter your Choice :</span><input id="in1" name="in1" type="number"></b>
-                    <p id="error"></p>
-                    <br/>     
-                    <button id="btn2" style="margin-right: 10px;" class="btn-lg btn-primary" onclick=check(in1.value)>Go</button>
-                    <button id="btn3" class="btn-lg btn-success" onclick=reset()>Reset</button>
+                    <p>Chose a mode for you. In Manual Mode you can choose and in Automatic Mode choice will be made automatically</p>
+                    </br>
+                    <input type="button" class="btn-lg btn-info" name="selection" value="Manual Mode" onclick=manual()>
+                    <input type="button" class="btn-lg btn-info" name="selection" value="Automatic Mode" onclick=auto()>
+
+
+
+                    <div style="display: none;" id="div2">
+                        <h2>Manual Mode</h2>
+                        <p>1 - Rock<br/>2 - Paper<br/>3 - Scissor</p>
+                        <p class="background" id="p1">Computer has made it's choice. Now its your turn</p>
+                        <p id="choice"></p>
+                        <b><span>Enter your Choice :</span><input id="in1" name="in1" type="number"></b></br>
+                        <!-- <b><span>Enter your Choice :</span></b>
+                        <input type="radio" id="choice" name="choice" value="Rock">
+                        <label for="Rock">:Rock</label>
+                        <input type="radio" id="choice" name="choice" value="Paper">
+                        <label for="Rock">:Paper</label>
+                        <input type="radio" id="choice" name="choice" value="Scissor">
+                        <label for="Rock">:Scissor</label> -->
+                        <p id="error"></p>
+
+                        <br/>     
+                        <button id="btn2" style="margin-right: 10px;" class="btn-lg btn-primary" onclick=check(in1.value)>Go</button>
+                        <!-- <button id="btn4" style="margin-right: 10px;" class="btn-lg btn-primary" onclick=check(choice.value)>Go1</button> -->
+                        <button id="btn3" class="btn-lg btn-success" onclick=reset()>Reset</button>
+                        <br />
+                    </div>
+
+                    <div style="display: none;" id="div3">
+                        <h2>Automatic Mode</h2>
+                        <p class="background" id="p2">Let's Go!</p>
+                        <p id="choice1"></p>
+                        <br/>     
+                        <button id="btn2" style="margin-right: 10px;" class="btn-lg btn-primary" onclick=autoGame()>Go</button>
+                        <button id="btn3" class="btn-lg btn-success" onclick=reset()>Reset</button>
+                        <br />
+                    </div>
+                    
+                    
+
                     <br />
-                    <br />
-                    <b><span><<<   ScoreBoard   >>></span></b><br/>
+                    <b><span><<< ScoreBoard >>></span></b><br/>
                     <table >
                         <tr>
                             <th style="text-align: left;">Round:</th>
