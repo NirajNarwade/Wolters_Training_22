@@ -30,4 +30,32 @@
 #   pycharm git push pull commit
 #   list funtions
 #   function, user defined, with arguments
-#       
+#   
+# Day 4
+# 27-06-2022
+#   functional programming
+#   first class funtion
+#   higher order funtion
+#   map filter reduce
+#   anonymous / lambda functions
+#   file operations
+#   loads(), dumps()
+# Day 5
+# 28-06-2022
+#   patient data json file operations
+#   read save update delete
+#   Apppointment system app
+#   match case
+#   patient data csv file operations
+#   
+# Day 6
+# 30-06-2022
+#   iterators
+#   generators
+#   decorators
+#   exception handeling
+#   try except finally
+#   db operations
+#   arraylist vs iterator
+#        
+
