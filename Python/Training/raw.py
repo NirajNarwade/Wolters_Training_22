@@ -52,10 +52,23 @@
 # 30-06-2022
 #   iterators
 #   generators
-#   decorators
+#   decorators  @timed_greeting -->used defined function name
 #   exception handeling
 #   try except finally
 #   db operations
 #   arraylist vs iterator
+#   sql lite
+#  
+# Day 7
+# 01-07-2022
+#   sql lite demo
+#   connect
+#   execute
+#   cursor
+#   commit
+#   sql packages in python
+#   built in annotations
+#   custom annotations
+#   closure function
 #        
 
