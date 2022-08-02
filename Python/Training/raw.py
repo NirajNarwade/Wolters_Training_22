@@ -70,5 +70,36 @@
 #   built in annotations
 #   custom annotations
 #   closure function
-#        
+#   OOP 
+#   constructor
+#   methods
+#   dunder methods
+#    
+# Day 8
+# 06-07-2022
+#   Python oops
+#   objects
+#   comments syntax
+#   accessing properties of object
+#   built in class functions
+#   get set properties
+#   Inheritance
+#   class object relationship
+#   Polymorphism
+#   method overloading
+#   operator overloading
+#   decoratpr - @property
+#   abstraction
+#   encapsulation
+#   
+# Day 9
+# 07-07-2022
+#   variable / function scope
+#   virtual environment
+#   enumerate
+#   zip / unzip
+#   comprehension
+#   exceptions
+#   
+# python ends 
 
