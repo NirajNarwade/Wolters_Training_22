@@ -3,13 +3,13 @@ flag1 = False
 if flag: 
     print("flag is true")                   # tab after if runs if condition satisfies
     print("flag is true")                   # tab after if runs if condition satisfies
-print("falg is false")                      # whatever is not tab then it is not considered as part of if statement
+print("flag is false")                      # whatever is not tab then it is not considered as part of if statement
 
 if flag1: 
     print("flag is true")                   # tab after if runs if condition satisfies
     print("flag is true")                   # tab after if runs if condition satisfies
 else:
-    print("falg is false")                  # else executed if condition does not satisfies
+    print("flag is false")                  # else executed if condition does not satisfies
 
 # if else ladder
 # if condition:
@@ -61,7 +61,7 @@ else:
 # this code is complete and works
 
 
-# program to find wheter student is pass or fail
+# program to find whether student is pass or fail
 # condition 3 subs,40% in total, 33% in each sub/ take input from user 
 
 sub1 = float(input("Enter marks of subject 1 : "))

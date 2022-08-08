@@ -9,16 +9,16 @@ Day 1
 Day 2
 22-06-2022 
   python --> javascript --> java - solid principles
-  Python - intro - ovwrview
+  Python - intro - overview
   command line python
   jupyter
   python - variables
-           datatypes
+           datatype
            
 
 Day 3
 23-06-2022
-  datatypes continuation
+  datatype continuation
   text,numeric,sequence,mapping,set
   string functions
   if else
@@ -30,14 +30,14 @@ Day 4
   loop control statements - continue, break, pass
   sample code for different types
   pycharm git push pull commit
-  list funtions
+  list functions
   function, user defined, with arguments
   
 Day 4
 27-06-2022
   functional programming
-  first class funtion
-  higher order funtion
+  first class function
+  higher order function
   map filter reduce
   anonymous / lambda functions
   file operations
@@ -47,7 +47,7 @@ Day 5
 28-06-2022
   patient data json file operations
   read save update delete
-  Apppointment system app
+  Appointment system app
   match case
   patient data csv file operations
   
@@ -56,7 +56,7 @@ Day 6
   iterators
   generators
   decorators  @timed_greeting -->used defined function name
-  exception handeling
+  exception handling
   try except finally
   db operations
   arraylist vs iterator
@@ -91,7 +91,7 @@ Day 8
   Polymorphism
   method overloading
   operator overloading
-  decoratpr - @property
+  decorator - @property
   abstraction
   encapsulation
   
@@ -109,7 +109,7 @@ Day 9
 JavaScript 
 Day 9
 02-07-2022
-  valiables and literals
+  variables and literals
   declaring vs assigning
   data types
   primitive / objects
@@ -125,7 +125,7 @@ Day 9
 Day 10
 11-07-2022
   html , xml, tags
-  accessing, modifing elements
+  accessing, modifying elements
   onclick event
   string function
   functions
@@ -145,7 +145,7 @@ Day 11
   anonymous block
   functions revisited
   function declaration / expression
-  arrow funtion
+  arrow function
 
 Day 12
 14-07-2022
@@ -153,7 +153,7 @@ Day 12
   object / object methods
   types of for loop
   dom and dom manipulation
-  handeling events
+  handling events
 
 Day 13
 15-07-2022

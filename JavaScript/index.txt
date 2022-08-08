@@ -1,0 +1,114 @@
+JavaScript
+    internal js
+    external js
+    variables and literals
+    identifiers
+    declaring vs assigning
+    datatype - primitive
+                    boolean
+                    undefined
+                    null
+                    number
+                    bigint
+                    string
+              - objects
+    arithmetic operators
+    assignment operators
+    precedence operators
+    equality operators
+    conditional or ternary operators
+    conditional statements
+    switch case
+    while loop
+    for loop
+        for
+        for in
+        for each
+        for of
+    string
+        str.length()
+        str[0]
+        str[str.length-1]
+        str.indexOf("xyz")
+        str.toUpperCase()
+        str.toLowerCase()
+        str.replace('',"aaa")
+        str.lastIndexOf()
+        str.search()
+        str.slice(start, end)
+        str.substring(start, end)
+        str.substr(start, length)
+        str.concat()
+        str.trim()
+        str.charAt()
+        str.charCodeAt()
+        str.split()
+    functions
+    arrow functions
+    events and elements
+    arrays and array methods
+    type conversion and coercion
+    truthy and falsy values
+    variable declaration
+        let
+        var
+        const
+    dom and dom manipulation
+        event handling
+    JavaScript scope
+        global
+        function
+        block
+    JavaScript hoisting
+    
+Modern JavaScript
+    array destructuring
+    object destructuring
+    spread operator
+    sets
+        add()
+        delete()
+        has()
+        values()
+        forEach()
+        clear()
+    maps
+    dates - Date Methods
+                setDate()           Set the day as a number (1-31)
+                setFullYear()       Set the year (optionally month and day)
+                setHours()          Set the hour (0-23)
+                setMilliseconds()   Set the milliseconds (0-999)
+                setMinutes()        Set the minutes (0-59)
+                setMonth()          Set the month (0-11)
+                setSeconds()        Set the seconds (0-59)
+                setTime()           Set the time (milliseconds since January 1, 1970)
+    functions
+        default parameters
+        first class functions
+        higher order function
+        call, apply, bind
+        IIFE immediately invoked function expression
+    closures
+    arrays - map, filter, reduce, find, find index, include, some, every, flat, flatmap
+
+    OOP object oriented programming
+        principles
+            encapsulation
+            abstraction
+            Inheritance
+            Polymorphism
+    prototype
+        prototypal Inheritance
+        prototype chain
+    es6 classes
+    getters and setters
+    static methods
+    data privacy
+    async javascript
+    ajax calls
+    api
+    xmlhttprequest
+    fetch
+    promise
+    async/ awaits
+    

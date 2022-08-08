@@ -6,7 +6,7 @@ from patient import patient
 
 def show_main_menu():
     print("1: Patient menu")
-    print("2: Appointment menu")
+    # print("2: Appointment menu")
     choice = int(input())
     match choice:
         case 1:
