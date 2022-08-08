@@ -6,4 +6,12 @@ topics covered
 python - https://github.com/nravinuthala/WK_Python
 javascript - https://github.com/nravinuthala/WK_JS
 
-Repository also consist selfstudy folder in which I have created some games and programs.
+Python -
+  Patient app - CRUD operations
+  Number Guess - Game
+  RockPapperScissor - Game
+  
+JavaScript -
+  Number Guess - Game
+  RockPapperScissor - Game
+  calculator - app
