@@ -78,7 +78,7 @@ if(sub1<33 or sub2<33 or sub3<33):
 elif total<40:
     print("Failed: Reason - due to less Overall marks (min 40% required)")
 else:
-    print("Congratulations! you have successfully passed examination and scored",total,"percantage")
+    print("Congratulations! you have successfully passed examination and scored",total,"percentage")
 
 # this code is complete and works
 
