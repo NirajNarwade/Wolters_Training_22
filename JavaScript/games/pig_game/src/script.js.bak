@@ -1,0 +1,79 @@
+'use strict';
+
+// selecting elements - select all the elements using querySeletor so that we can modify them easily
+const player0El = document.querySelector('.player--0');
+const player1El = document.querySelector('.player--1');
+const score0El = document.querySelector('#score--0');
+const score1El = document.querySelector('#score--1');
+const current0El = document.querySelector('#current--0');
+const current1El = document.querySelector('#current--1');
+
+const diceEl = document.querySelector('.dice');
+const btnNew = document.querySelector('.btn--new');
+const btnHold = document.querySelector('.btn--hold');
+const btnRoll = document.querySelector('.btn--roll');
+
+let scores, currentScore, activePlayer;
+
+// test section
+// console.log(player0El);
+// console.log(player1El);
+// console.log(score0El);
+// console.log(score1El);
+// console.log(current0El);
+// console.log(current1El);
+console.log(diceEl);
+console.log(btnNew);
+console.log(btnHold);
+console.log(btnRoll);
+score0El.textContent = 34;
+score1El.textContent = 56;
+current0El.textContent = 5;
+current1El.textContent = 2;
+diceEl.classList.remove('hidden');
+player0El.classList.toggle('player--active');
+player1El.classList.toggle('player--active');
+
+// reset the game to starting condition
+function init() {
+  // reset variables
+  scores = [0, 0];
+  currentScore = 0;
+  activePlayer = 0;
+
+  //   reset content on screen
+  current0El.textContent = 0;
+  current1El.textContent = 0;
+  score0El.textContent = 0;
+  score1El.textContent = 0;
+
+  //   reset controls
+  diceEl.classList.add('hidden');
+  player0El.classList.add('player--active');
+  player1El.classList.remove('player--active');
+}
+
+// init();
+
+// function to switch the player
+
+function switchPlayer() {
+  activePlayer = activePlayer === 0 ? 1 : 0;
+  currentScore.textContent = 0;
+  document.querySelector(`current--${activePlayer}`).textContent = 0;
+  player0El.classList.toggle('player--active');
+  player1El.classList.toggle('player--active');
+}
+
+// adding functionality to Roll Dice button
+
+btnRoll.addEventListener('click', function () {
+  const dice = Math.trunc(Math.random() * 6 + 1);
+  console.log(dice);
+  diceEl.src = `dice-${dice}.png`;
+  diceEl.classList.remove('hidden');
+});
+
+// add new game button functionality
+btnNew.addEventListener('click', init);
+// btnHold.addEventListener('click', switchPlayer);
