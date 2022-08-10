@@ -1,0 +1,50 @@
+installation
+setting path
+interactive mode - cli, jupyter, google colab 
+script mode
+
+variables - creation 
+datatype - 
+    numeric - int, float,complex
+    text - string
+    sequence - list, tuple, range
+    mapping - dict
+    set - set
+
+string
+list
+tuple
+dict
+data type conversion
+decision making -
+    if
+    if else
+    if elif....elif else
+nested conditional
+loops -
+    while
+    for -
+        for
+        for in
+        for each
+        for of
+loop control statements - break, continue, pass
+functions -
+    with arguments
+    with keyword arguments
+    with default arguments
+    variable number of arguments
+    higher order function
+    lambda function
+functional programming
+modules in python
+packages in python
+db operations
+OOP -
+    class
+    object
+    builtin class methods, attributes
+    inheritance
+    polymorphism
+    encapsulation
+    abstraction

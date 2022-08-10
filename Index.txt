@@ -59,7 +59,7 @@ Day 6
   exception handling
   try except finally
   db operations
-  arraylist vs iterator
+  array list vs iterator
   sql lite
  
 Day 7
@@ -106,7 +106,9 @@ Day 9
   
 ***python ends***
 
+
 JavaScript 
+
 Day 9
 02-07-2022
   variables and literals
@@ -126,7 +128,7 @@ Day 10
 11-07-2022
   html , xml, tags
   accessing, modifying elements
-  onclick event
+  on click event
   string function
   functions
   elements and events
@@ -161,7 +163,7 @@ Day 13
   let var 
   block scope
   js hoisting
-  primitives vs objects -- callstack , heap
+  primitives vs objects -- call stack , heap
   modern javascript
   array destructuring
   object destructuring
