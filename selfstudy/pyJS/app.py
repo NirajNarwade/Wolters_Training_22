@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
@@ -14,9 +14,17 @@ class RockPaperScissor(db.Model):
     def __repr__(self) -> str:
         return f"{self.name} --> {self.score}"  
 
-@app.route('/')
-def hello_world():
-    # return 'Hello, World!'
+@app.route('/', methods =["GET", "POST"])
+def home_page():
+    if request.method == "POST":
+       name = request.form.get("pname")
+    #    print(name)
+    #    return "Your name is "+name
+        # validateName(name)
+    return render_template('home.html')
+
+@app.route('/game')
+def game_page():
     return render_template('game.html')
 
 if __name__== "__main__":

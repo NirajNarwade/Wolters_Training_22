@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RockPaperScissor</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+    <link href="/static/game.css" rel="stylesheet">
+    <script src="/static/game.js"></script>
    
 </head>
 <body>
@@ -14,8 +16,79 @@
             <h1 id="heading">Welcome to the Game of Rock, Paper and Scissor</h1>
             <p>First, Computer will choose one from Rock, Paper and Scissor. Your job is to beat Computer in this game. Good Luck!</p>
             <button id="btn" class="btn" onclick="window.location.href='#popup1';">Rules</button><br/><br/>
-            Enter UserName :<input type="text" id="pname" name="pname" />
-            <button id="btn1" class="btn btn-primary btn-sm">Submit</button>
+            
+            <div id="popup1" class="overlay">
+                <div class="popup">
+                    <h3>Rules</h3>
+                    <a class="close" href="#">&times;</a>
+                    <div class="content">
+                        Rules are simple!<br/>Rock breaks Scissor - Rock wins!<br/>Paper covers Rock - Paper wins!<br/>Scissor cuts Paper - Scissor wins!
+                    </div>
+                </div>
+            </div>
+
+            <div id="box" class="box">
+                <button id="btn1" class="btn btn-lg btn-secondary" onclick=buttonHandeler()>Click here to play</button>
+                
+                <div style="display: none;" id="div1">
+                    <p>Chose a mode for you. In Manual Mode you can choose and in Automatic Mode choice will be made automatically</p>
+                    </br>
+                    <input type="button" id="btn5" class="btn-lg btn-info" name="selection" value="Manual Mode" onclick=manual()>
+                    <input type="button" id="btn5" class="btn-lg btn-info" name="selection" value="Automatic Mode" onclick=auto()>
+
+                    <div style="display: none;" id="div2">
+                        <h2>Manual Mode</h2>
+                        <p>1 - Rock<br/>2 - Paper<br/>3 - Scissor</p>
+                        <p class="background" id="p1">Computer has made it's choice. Now its your turn</p>
+                        <p id="choice"></p>
+                        <b><span>Enter your Choice :</span><input id="in1" name="in1" type="number"></b></br>
+                        <!-- <b><span>Enter your Choice :</span></b>
+                        <input type="radio" id="choice" name="choice" value="Rock">
+                        <label for="Rock">:Rock</label>
+                        <input type="radio" id="choice" name="choice" value="Paper">
+                        <label for="Rock">:Paper</label>
+                        <input type="radio" id="choice" name="choice" value="Scissor">
+                        <label for="Rock">:Scissor</label> -->
+                        <p id="error"></p>
+
+                        <br/>     
+                        <button id="btn2" class="btn-lg btn-primary" onclick=check(in1.value)>Go</button>
+                        <button id="btn3" class="btn-lg btn-success" onclick=reset()>Reset</button>
+                        <br />
+                    </div>
+
+                    <div style="display: none;" id="div3">
+                        <h2>Automatic Mode</h2>
+                        <p class="background" id="p2">Let's Go!</p>
+                        <p id="choice1"></p>
+                        <br/>     
+                        <button id="btn2" class="btn-lg btn-primary" onclick=autoGame()>Go</button>
+                        <button id="btn3" class="btn-lg btn-success" onclick=reset()>Reset</button>
+                        <br />
+                    </div>
+
+                    <br />
+                    <b><span><<< ScoreBoard >>></span></b><br/>
+                    <table >
+                        <tr>
+                            <th style="text-align: left;">Round:</th>
+                            <td style="text-align: right;"id="round"></td>
+                        </tr>
+                        <tr>
+                            <th style="text-align: left;">Computer:</th>
+                            <td style="text-align: right;"id="comp"></td>
+                        </tr>
+                        <tr>
+                            <th style="text-align: left;">You:</th>
+                            <td style="text-align: right;"id="you"></td>
+                        </tr>
+                        <tr>
+                            <th style="text-align: left;">Tie:</th>
+                            <td style="text-align: right;"id="tie"></td>
+                        </tr>                    
+                    </table>
+                </div>
+            </div>
         </div>
     </div>
 </body>

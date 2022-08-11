@@ -110,7 +110,7 @@ Day 9
 JavaScript 
 
 Day 9
-02-07-2022
+08-07-2022
   variables and literals
   declaring vs assigning
   data types
