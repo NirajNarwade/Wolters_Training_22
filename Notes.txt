@@ -1,0 +1,75 @@
+SOLID principles
+    s - Single Responsibility Principle :
+        class should be having one and only one responsibility. there should be only one reason to change.
+        example - business logic, user interface, persistance, logs, users.
+        makes code easier to understand, fix, maintain.
+        classes are less coupled and more resilient to change.
+        
+
+    o - Open-Closed Principle :
+        classes should be open for extension but closed for modification
+    
+    l - Liskov Substitution Principle :
+        parent classes should be easily substituted with their child classes without blowing up the application
+    
+    i - Interface Segregation Principle :
+        many client specific interfaces are better than one general interface
+    
+    d - Dependency Inversion Principle :
+        classes should depend on abstraction but not on concretion
+
+
+Python
+    First class function :
+
+    Higher order function :
+
+    Lambda function :
+
+    File operations :
+
+    Iterator :
+
+    Generators :
+
+    Decorators :
+
+    Sql :
+
+    OOP - 
+        Dunder methods :
+
+
+JavaScript
+    Conversion and coercion :
+
+    Hoisting :
+
+    Array destructuring :
+
+    Object destructuring :
+
+    Spread operator :
+
+    Rest function :
+
+    Call, bind, apply :
+
+    IIFE :
+
+    Closures :
+
+    Flat  :
+
+    Flat map :
+
+    OOP :
+
+    Promise :
+
+    Fetch :
+
+    Async / awaits :
+
+    Flask :
+

@@ -62,9 +62,13 @@ JavaScript
     JavaScript hoisting
     
 Modern JavaScript
-    array destructuring
-    object destructuring
-    spread operator
+    array destructuring -
+        const [a,,c] = alphabet --> a get 1st value in alphabet, c gets 3rd value of alphabet.
+    object destructuring - 
+        can be accessed using name of properties of object. alias name is also possible.
+        destructuring of nested objects also possible.
+    spread operator - 
+        concatenation, appending data, accessing all data
     sets
         add()
         delete()
@@ -85,10 +89,19 @@ Modern JavaScript
     functions
         default parameters
         first class functions
-        higher order function
-        call, apply, bind
-        IIFE immediately invoked function expression
-    closures
+            these can be treated as variables and can be passed as parameters.
+        higher order functions
+            functions that accepts other functions as argument or returns function as result.
+        call -
+            
+        apply -
+
+        bind -
+
+        IIFE immediately invoked function expression -
+
+    closures -
+    
     arrays - map, filter, reduce, find, find index, include, some, every, flat, flatmap
 
     OOP object oriented programming

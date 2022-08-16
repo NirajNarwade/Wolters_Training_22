@@ -168,3 +168,92 @@ Day 13
   array destructuring
   object destructuring
   spread operator
+
+Day14
+18-07-2022
+  sets (data structure)
+  sets methods
+  calculator demo
+  maps  (data structure)
+  date and date functions
+  more functions - 
+    default parameters
+
+Day15
+19-07-2022
+  object copy using spread operators
+  object de-structuring
+  rest function
+  more functions - 
+    first class functions
+    higher order functions
+    call, bind, apply
+  set test
+
+Day16
+22-07-2022
+  IIFE - immediately invoked function expression
+  closures
+  arrays revisited
+  array map, filter, reduce
+  array - find, some, every, include, flat, flat map
+
+Day17
+25-07-2022
+  flat map
+  oops in JavaScript - introduction
+    Object.create()
+    class
+    constructor
+    prototype - Inheritance, chain
+    misc
+    getters and setters
+    static methods
+    data privacy
+
+Day18
+26-07-2022
+  class in detail
+  getters, setters
+  static methods, classes
+  inheritance
+  data privacy
+
+Day19
+27-07-2022
+  data privacy
+  sync and async JavaScript
+  ajax
+  event handlers
+  promise
+  fetch
+  async awaits
+
+Day20
+29-07-2022
+  flask
+  async test
+
+Day21
+02-08-2022
+  JS program demos
+  OOPS 
+  SOLID principles - introduction
+  flask - introduction
+
+Day22
+03-08-2022
+  SOLID principles
+    single responsibility
+  abstraction in oop
+    open close
+
+Day23
+04-08-2022
+  SOLID principles
+    liskov substitution
+    interface segregation
+    dependency inversion
+  Top Down design
+
+  
