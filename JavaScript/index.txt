@@ -11,7 +11,7 @@ JavaScript
                     number
                     bigint
                     string
-              - objects
+             - objects
     arithmetic operators
     assignment operators
     precedence operators

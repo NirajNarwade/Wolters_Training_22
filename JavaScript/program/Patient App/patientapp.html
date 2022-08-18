@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WK Patient App</title>
+    <script src="patient.js"></script>
+</head>
+<body>
+    <h1>Welcome to Wk Patient App</h1>
+    <button onclick=addNew()>Add New Patient</button><button onclick=viewAll()>All Patients</button>
+    <div id="patientform" style="display: none;">
+        <!-- <form>
+            <h3>Add New Patient</h3>
+            <label>Patient Name :</label>
+            <input type="text" id="pname" name="pname" placeholder="Enter Patient Name">
+            <button type="submit">Submit</button>
+        </form> -->
+
+        <h3>Add New Patient</h3>
+        <label>Patient Name :
+            <input type="text" id="pname" name="pname" placeholder="Enter Name">
+        </label>
+        <label>Patient Age :
+            <input type="number" id="age" name="age" placeholder="Enter Age">
+        </label>
+        <label>Patient Gender :
+            <input type="text" id="gender" name="gender" placeholder="Enter Gender">
+        </label>
+        <label>Patient Contact Number :
+            <input type="number" id="number" name="number" placeholder="Enter Contact Number">
+        </label>
+        <button onclick=register()>Submit</button>
+
+    </div>
+    <div id="patientlist" style="display: none;">
+        <h3>List of All Patient</h3>
+        <div id =list></div>
+    </div>
+</body>
+</html>
