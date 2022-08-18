@@ -18,7 +18,7 @@ function viewAll(){
 }
 
 let showPatient = function (p){
-    document.getElementById("list").innerText += "Name : "+`${p.Name}`+"\nAge : "+`${p.Age}`+"\nGender : "+`${p.Gender}`+"\nContact Number : "+`${p.Number}`+"\n\n";
+    document.getElementById("list").innerText += "Name : "+`${p.Name}`+"\nAge : "+`${p.Age}`+"\nGender : "+`${p.Gender}`+"\nContact Number : "+`${p.Number}`+"\n\n"; 
     
 }
 
@@ -46,3 +46,5 @@ function register(){
     // console.log(patientList);
     viewAll()
 }
+
+viewAll()

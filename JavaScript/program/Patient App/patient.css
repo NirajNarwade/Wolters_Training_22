@@ -1,0 +1,28 @@
+.center {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  label {
+    display: block;
+  }
+
+  table {
+    margin: 0 auto;
+    text-align: center;
+    
+  }
+
+  td {
+    text-align: right;
+    padding: 2px;
+  }
+
+  input{
+    width: 300px;
+  }
+
+
+  .plist {
+    text-align: left;
+  }

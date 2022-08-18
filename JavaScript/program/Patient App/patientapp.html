@@ -6,37 +6,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WK Patient App</title>
     <script src="patient.js"></script>
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="patient.css">
 </head>
 <body>
-    <h1>Welcome to Wk Patient App</h1>
-    <button onclick=addNew()>Add New Patient</button><button onclick=viewAll()>All Patients</button>
-    <div id="patientform" style="display: none;">
-        <!-- <form>
-            <h3>Add New Patient</h3>
-            <label>Patient Name :</label>
-            <input type="text" id="pname" name="pname" placeholder="Enter Patient Name">
-            <button type="submit">Submit</button>
-        </form> -->
+    <div class="container-fluid">
+        <div class="center">
+            <h1 class="heading">Welcome to Wk Patient App</h1>
+            
+            <button class="btn btn-primary" onclick=addNew()>Add New Patient</button><button class="btn btn-secondary" onclick=viewAll()>All Patients</button>
+            <div id="patientform" style="display: none;">
+                <!-- <form>
+                    <h3>Add New Patient</h3>
+                    <label>Patient Name :</label>
+                    <input type="text" id="pname" name="pname" placeholder="Enter Patient Name">
+                    <button type="submit">Submit</button>
+                </form> -->
+        
+                <h3>Add New Patient</h3>
+                <table >
+                    <tr>
+                        <th>
+                            <label for="pname">Patient Name :</label>
+                        </th>
+                        <td>
+                            <input type="text" id="pname" name="pname" placeholder="Enter Name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label>Patient Age :</label>
+                        </th>
+                        <td>
+                            <input type="number" id="age" name="age" placeholder="Enter Age">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label>Patient Gender :</label>
+                        </th>
+                        <td>
+                            <input type="text" id="gender" name="gender" placeholder="Enter Gender">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label>Patient Contact Number :</label>
+                        </th>
+                        <td>
+                            <input type="number" id="number" name="number" placeholder="Enter Contact Number">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <button class="btn btn-success" onclick=register()>Submit</button>
+                        </td>
+                    </tr>
+                </table>
+        
+            </div>
+            <div id="patientlist" style="display: none;" class="plist">
+                <h3>List of All Patient</h3>
+                <div id =list></div>
+            </div>
+            <!-- <div id="list1" >
+                <h3>List of All Patient</h3>
+                <table class="table">
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Gender</th>
+                        <th>Contact Number</th>
+                    </tr>
 
-        <h3>Add New Patient</h3>
-        <label>Patient Name :
-            <input type="text" id="pname" name="pname" placeholder="Enter Name">
-        </label>
-        <label>Patient Age :
-            <input type="number" id="age" name="age" placeholder="Enter Age">
-        </label>
-        <label>Patient Gender :
-            <input type="text" id="gender" name="gender" placeholder="Enter Gender">
-        </label>
-        <label>Patient Contact Number :
-            <input type="number" id="number" name="number" placeholder="Enter Contact Number">
-        </label>
-        <button onclick=register()>Submit</button>
+                </table>
+            </div> -->
+        </div>
 
-    </div>
-    <div id="patientlist" style="display: none;">
-        <h3>List of All Patient</h3>
-        <div id =list></div>
     </div>
 </body>
 </html>
